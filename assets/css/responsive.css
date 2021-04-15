@@ -1,0 +1,230 @@
+@media (max-width: 1199px) {
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.modal-content {
+		width: 35%;
+	}
+}
+
+@media (max-width: 991px) {
+
+	/*========================*/
+	/* REUSEBLE COMPONENTS */
+	/*========================*/
+	.col__md__mb {
+		margin-bottom: 3rem;
+	}
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	.main__menu {
+		position: relative;
+		position: fixed;
+		right: -100%;
+		top: 0;
+		height: 100vh;
+		background: var(--color-3);
+		width: 50%;
+		-webkit-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
+		z-index: 9999;
+	}
+
+	/*- SHOW & HIDE MENU -*/
+	.main__menu-show {
+		right: 0;
+		-webkit-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
+	}
+
+	.main__menu ul {
+		width: 100%;
+	}
+
+	.main__menu ul li:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 2rem;
+	}
+
+	/* MENU SHOW & HIDE ICON */
+	.menu__show__icon {
+		display: block;
+	}
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.hero__section {
+		padding-bottom: 10rem !important;
+	}
+
+	.modal-content {
+		width: 43%;
+	}
+
+	/*=====================*/
+	/* ABOUT SECTION */
+	/*=====================*/
+	.about__img {
+		margin-bottom: 4rem;
+	}
+
+	.about__img img {
+		height: auto;
+	}
+
+	/*====================*/
+	/* SKILL SECTION */
+	/*====================*/
+	.skill__progress__bar__col {
+		padding-left: 0rem;
+		margin-top: 4rem;
+	}
+}
+
+@media (max-width: 767px) {
+
+	/*========================*/
+	/* REUSEBLE COMPONENTS */
+	/*========================*/
+	section {
+		padding: 6.8rem 0 8rem;
+	}
+
+	.col__sm__mb {
+		margin-bottom: 3rem;
+	}
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	.main__menu {
+		width: 60%;
+	}
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.hero__text .hero__text__title {
+		font-size: 5rem;
+	}
+
+	.modal-content {
+		width: 55%;
+	}
+
+	/*=====================*/
+	/* CONTACT SECTION */
+	/*=====================*/
+	.contact__img img {
+		height: auto;
+	}
+
+}
+
+@media (max-width: 575px) {
+
+	/*===================*/
+	/*-- VARIABLES --*/
+	/*===================*/
+	:root {
+		--heading: 3.3rem;
+		--sub-heading: 2.3rem;
+		--paragraph-1: 1.7rem;
+		--paragraph-2: 1.5rem;
+		--btn: 1.5rem;
+	}
+
+	/*=======================*/
+	/* REUSEBLE COMPONENTS */
+	/*=======================*/
+	section {
+		padding: 5.8rem 0 7rem;
+	}
+
+	.row__mt {
+		margin-top: 7rem;
+	}
+
+	/*=====================*/
+	/* HEADER SECTION */
+	/*=====================*/
+	header {
+		padding: 2rem 0;
+	}
+
+	.main__menu {
+		width: 100%;
+	}
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.hero__section {
+		padding: 11rem 0 6rem !important;
+	}
+
+	.hero__top__img {
+		margin-bottom: 3rem;
+	}
+
+	.hero__top__img img {
+		width: 17rem;
+		height: 17rem;
+	}
+
+	.hero__text .hero__text__title {
+		font-size: 3.6rem;
+	}
+
+	.hero__sub--title::after {
+		right: -4rem;
+		width: 3rem;
+	}
+
+	.modal-content {
+		width: 70%;
+	}
+
+	/*=====================*/
+	/* ABOUT SECTION */
+	/*=====================*/
+	.about__img {
+		margin-bottom: 3rem;
+	}
+
+	.about__social__link {
+		margin-bottom: .5rem;
+	}
+	
+	/*=====================*/
+	/* SKILL SECTION */
+	/*=====================*/
+	.padding-x {
+		padding-left: .7rem;
+		padding-right: .7rem;
+	}
+	/*=====================*/
+	/* TESTIMONIAL SECTION */
+	/*=====================*/
+	.swiper-slide {
+		padding-bottom: 3rem;
+		padding: 11rem 2rem 2rem;
+	}
+}
+
+@media (max-width: 450px) {
+
+	/*=====================*/
+	/* HERO SECTION */
+	/*=====================*/
+	.modal-content {
+		width: 90%;
+	}
+
+}

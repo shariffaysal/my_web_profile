@@ -1,0 +1,266 @@
+/*==============*/
+/*-- BASIC --*/
+/*==============*/
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::-moz-selection {
+	background: var(--color-1);
+	color: var(--color-2);
+}
+
+::selection {
+	background: var(--color-1);
+	color: var(--color-2);
+}
+
+::-webkit-scrollbar {
+	width: .9rem;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--color-1);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--color-2);
+	height: 6rem;
+}
+
+a,
+span,
+label {
+	display: inline-block;
+}
+
+ul li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+button:focus,
+input:focus,
+textarea:focus,
+button,
+input,
+textarea {
+	outline: 0;
+	border: 0;
+}
+
+/*=======================*/
+/*-- RESPONSIVE IMG --*/
+/*=======================*/
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+/*=====================*/
+/*-- TYPOGRAPHY --*/
+/*=====================*/
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.italic {
+	font-style: italic;
+}
+
+/*=======================*/
+/*-- BORDER RADIUS --*/
+/*=======================*/
+.circle {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.rounded-pill {
+	border-radius: 3rem;
+	-webkit-border-radius: 3rem;
+	-moz-border-radius: 3rem;
+	-ms-border-radius: 3rem;
+	-o-border-radius: 3rem;
+}
+
+.rounded {
+	border-radius: .3rem;
+	-webkit-border-radius: .3rem;
+	-moz-border-radius: .3rem;
+	-ms-border-radius: .3rem;
+	-o-border-radius: .3rem;
+}
+
+/*=================*/
+/*-- SHADOW --*/
+/*=================*/
+.shadow-sm {
+	-webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.shadow-md {
+	-webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.shadow-lg {
+	-webkit-box-shadow: 0 7px 20px 0 rgb(28 30 35 / 20%);
+	box-shadow: 0 7px 20px 0 rgb(28 30 35 / 20%);
+}
+
+/*==========================*/
+/*-- POSITION RELATIVE --*/
+/*==========================*/
+.position-relative {
+	position: relative;
+}
+
+/*====================================*/
+/*-- TRANSFORM & POSITION CENTER --*/
+/*====================================*/
+.vh-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+/*====================*/
+/*-- TRANSITION --*/
+/*====================*/
+.transition-1 {
+	-webkit-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+.transition-2 {
+	-webkit-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.transition-3 {
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+/*================================*/
+/*-- TEXT & FLOAT ALIGNMENT --*/
+/*================================*/
+
+.text-start {
+	text-align: left;
+}
+
+.text-end {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+@media (min-width: 576px) {
+	.text-sm-start {
+		text-align: left;
+	}
+
+	.text-sm-end {
+		text-align: right;
+	}
+
+	.text-sm-center {
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px) {
+	.text-md-start {
+		text-align: left;
+	}
+
+	.text-md-end {
+		text-align: right;
+	}
+
+	.text-md-center {
+		text-align: center;
+	}
+}
+
+@media (min-width: 992px) {
+	.text-lg-start {
+		text-align: left;
+	}
+
+	.text-lg-end {
+		text-align: right;
+	}
+
+	.text-lg-center {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	.text-xl-start {
+		text-align: left;
+	}
+
+	.text-xl-end {
+		text-align: right;
+	}
+
+	.text-xl-center {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1400px) {
+	.text-xxl-start {
+		text-align: left;
+	}
+
+	.text-xxl-end {
+		text-align: right;
+	}
+
+	.text-xxl-center {
+		text-align: center;
+	}
+}
+
+/*============================================*/
+/*============================================*/
